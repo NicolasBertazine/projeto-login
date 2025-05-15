@@ -17,7 +17,7 @@
 }
 
 html, body {
-    background-color: #167AFA;
+    background-image: linear-gradient(to top, #3f0075, #D916FA, #009ffc, #00204b);
     height: 100vh;
     width: 100vw;
 }
@@ -48,10 +48,19 @@ div#imagem {
     background: #167AFA url(../image/fundo.jpg) no-repeat;
     background-size: cover;
     background-position: center left;
-    height: 200px;
+    height: 150px;
 }
 
 div#formulario {
     display: block;
     padding: 10px;
+}
+
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario > p {
+    font-size: 0.8em;
 }

@@ -14,11 +14,20 @@
         float: left;
         width: 30%;
         height: 100%;
+        background-position: center center;
     }
 
     div#formulario {
         float: right;
         width: 70%;
+    }
+
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+
+    div#formulario > p {
+        font-size: 1.2em;
     }
 }
 
@@ -29,17 +38,25 @@
     }
 
     section#login{
-        width: 990px;
+        width: 950px;
     }
 
     div#imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     div#formulario {
-        float: right;
+        float: left;
         width: 50%;
+    }
+
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+
+    div#formulario > p {
+        font-size: 1.2em;
     }
 }
