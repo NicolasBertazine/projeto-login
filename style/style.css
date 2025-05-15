@@ -2,9 +2,54 @@
 
 
 /*
-
-    ROXO: #8E16FA
-    ROXO CLARO: #D916FA
-    AZUL ESCURO: #4516FA
-    AZUL: #167AFA
+    CORES:
+    Roxo: #5f00b3
+    Roxo Claro: #D916FA
+    Azul Escuro: #4516FA
+    Azul: #167AFA
 */
+
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: #167AFA;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;  
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.486); 
+}
+
+div#imagem {
+    display: block;
+    background: #167AFA url(../image/fundo.jpg) no-repeat;
+    background-size: cover;
+    background-position: center left;
+    height: 200px;
+}
+
+div#formulario {
+    display: block;
+    padding: 10px;
+}
